@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" href="favicon.ico" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Licita Bot</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="topbar-left">
+      <div class="logo">LicitaBot</div>
+    </div>
+    <div class="topbar-right">
+      <span id="healthStatus" class="status-pill">API: verificando…</span>
+      <div id="userInfo" class="hidden"></div>
+    </div>
+  </header>
+
+  <main>
+    <section id="loginSection">
+      <div id="loginForm" class="auth-form">
+        <h2>Entrar</h2>
+        <form id="loginFormElement">
+          <label for="loginEmail">E-mail</label>
+          <input type="email" id="loginEmail" placeholder="seu@email.com" required />
+          <label for="loginPassword">Senha</label>
+          <input type="password" id="loginPassword" placeholder="••••••" required />
+          <button type="submit">Entrar</button>
+        </form>
+        <p class="hint">Teste: admin@techcorp.com / senha123</p>
+        <p class="hint">Após o login, você gerencia tudo diretamente no painel.</p>
+      </div>
+      
+      
+      <div id="authError" class="error"></div>
+    </section>
+
+    <section id="dashboardSection" class="hidden">
+      <div class="panel">
+        <div class="panel-header">
+          <h2>Leilões</h2>
+          <span id="selectedCompanyLabel" class="hidden" role="button" tabindex="0" title="Importar licitações desta empresa" style="margin-left:12px; color:#b00020; font-weight:600; cursor:pointer;"></span>
+          <div class="header-buttons">
+            <label for="statusFilter" style="margin-right:8px;">Status:</label>
+            <select id="statusFilter" style="margin-right:12px;">
+              <option value="">Todos</option>
+              <option value="running">Em execução</option>
+              <option value="scheduled">Agendado</option>
+            </select>
+            <label for="portalFilter" style="margin-right:8px;">Portal:</label>
+            <select id="portalFilter" style="margin-right:12px;">
+              <option value="">Todos</option>
+              <option value="Comprasnet">Comprasnet</option>
+              <option value="Licitacoes-e">Licitacoes-e</option>
+            </select>
+            <button id="syncLicitacoes">Sincronizar Licitações</button>
+            <button id="refreshAuctions">Atualizar</button>
+          </div>
+        </div>
+        <table id="auctionsTable">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Portal</th>
+              <th>Item</th>
+              <th>Preço Atual</th>
+              <th>Status</th>
+              <th>Piso (R$)</th>
+              <th>Decr. (R$)</th>
+              <th>Estratégia</th>
+              <th>Controles</th>
+            </tr>
+          </thead>
+          <tbody id="auctionsBody"></tbody>
+        </table>
+        <div id="feedback" class="feedback"></div>
+      </div>
+
+      <!-- Controles avançados embutidos após login (visível apenas para admin) -->
+      <div id="adminPanel" class="panel hidden" style="margin-top:24px;">
+        <div class="panel-header">
+          <h2>Controles</h2>
+          <div id="admin-status" class="status-pill">API: verificando…</div>
+        </div>
+
+        <div class="admin-actions" style="margin-top:12px;">
+          <button id="refreshBtn" class="btn">Atualizar lista</button>
+        </div>
+
+        <div class="admin-create" style="margin-top:16px; border:1px solid #eee; padding:12px; border-radius:8px;">
+          <h3>Cadastrar empresa do cliente (Credenciais Comprasnet)</h3>
+          <div style="display:grid; grid-template-columns:1fr 1fr; gap:10px;">
+            <div>
+              <label>Nome da empresa</label>
+              <input id="adminCompanyName" type="text" placeholder="Empresa Ltda" style="width:100%; padding:8px;" />
+            </div>
+            <div>
+              <label>CNPJ</label>
+              <input id="adminCompanyCnpj" type="text" placeholder="00.000.000/0001-00" style="width:100%; padding:8px;" />
+            </div>
+            <div>
+              <label>Email da empresa</label>
+              <input id="adminCompanyEmail" type="email" placeholder="contato@empresa.com" style="width:100%; padding:8px;" />
+            </div>
+            <div>
+              <label>Login Comprasnet</label>
+              <input id="comprasnetUser" type="text" placeholder="usuário comprasnet" style="width:100%; padding:8px;" />
+            </div>
+            <div>
+              <label>Senha Comprasnet</label>
+              <input id="comprasnetPass" type="password" placeholder="senha comprasnet" style="width:100%; padding:8px;" />
+            </div>
+          </div>
+          <div style="margin-top:10px;">
+            <button id="createCompanyBtn" class="btn">Cadastrar Empresa</button>
+          </div>
+          <small>A empresa será criada como <b>paga</b> inicialmente; você pode marcar como <b>em atraso</b> depois.</small>
+        </div>
+
+        <h3 style="margin-top:24px;">Empresas cadastradas</h3>
+        <table id="companiesTable">
+          <thead>
+            <tr>
+              <th>ID</th>
+              <th>Empresa</th>
+              <th>CNPJ</th>
+              <th>Email</th>
+              <th>Pagamento</th>
+              <th>Criada em</th>
+              <th>Controles</th>
+            </tr>
+          </thead>
+          <tbody>
+            <!-- preenchido via JS -->
+          </tbody>
+        </table>
+
+        <div id="adminMessage" style="margin-top:12px;color:#444;"></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <small>MVP - Simulação em memória</small>
+  </footer>
+
+  <script src="app.js"></script>
+  <script src="admin.js"></script>
+</body>
+</html>

@@ -1,0 +1,522 @@
+[
+  {
+    "id": 3,
+    "portal": "Comprasnet",
+    "item": "Impressora laser",
+    "reference_price": 850.0,
+    "current_price": 850.0,
+    "status": "running",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 4,
+    "portal": "Comprasnet",
+    "item": "Veículo oficial",
+    "reference_price": 85000.0,
+    "current_price": 85000.0,
+    "status": "running",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 8,
+    "portal": "Comprasnet",
+    "item": "Aquisição de equipamentos de informática",
+    "reference_price": 336669.0003601515,
+    "current_price": 336669.0003601515,
+    "status": "running",
+    "company_id": 3,
+    "scheduled_at": null
+  },
+  {
+    "id": 9,
+    "portal": "Comprasnet",
+    "item": "Prestação de serviços de manutenção predial",
+    "reference_price": 173254.9478790705,
+    "current_price": 173254.9478790705,
+    "status": "running",
+    "company_id": 3,
+    "scheduled_at": null
+  },
+  {
+    "id": 10,
+    "portal": "Comprasnet",
+    "item": "Fornecimento de materiais de escritório",
+    "reference_price": 86975.73086303117,
+    "current_price": 86975.73086303117,
+    "status": "running",
+    "company_id": 3,
+    "scheduled_at": null
+  },
+  {
+    "id": 11,
+    "portal": "Comprasnet",
+    "item": "Aquisição de Equipamentos de TI",
+    "reference_price": 120000.0,
+    "current_price": 120000.0,
+    "status": "running",
+    "company_id": 3,
+    "scheduled_at": null
+  },
+  {
+    "id": 12,
+    "portal": "Comprasnet",
+    "item": "Serviços de Manutenção Predial",
+    "reference_price": 45000.0,
+    "current_price": 45000.0,
+    "status": "scheduled",
+    "company_id": 3,
+    "scheduled_at": null
+  },
+  {
+    "id": 13,
+    "portal": "Comprasnet",
+    "item": "Fornecimento de Material Hospitalar",
+    "reference_price": 300000.0,
+    "current_price": 300000.0,
+    "status": "scheduled",
+    "company_id": 3,
+    "scheduled_at": null
+  },
+  {
+    "id": 14,
+    "portal": "Comprasnet",
+    "item": "Aquisição de Equipamentos de TI",
+    "reference_price": 120000.0,
+    "current_price": 120000.0,
+    "status": "running",
+    "company_id": 4,
+    "scheduled_at": null
+  },
+  {
+    "id": 15,
+    "portal": "Comprasnet",
+    "item": "Serviços de Manutenção Predial",
+    "reference_price": 45000.0,
+    "current_price": 45000.0,
+    "status": "scheduled",
+    "company_id": 4,
+    "scheduled_at": null
+  },
+  {
+    "id": 16,
+    "portal": "Comprasnet",
+    "item": "Fornecimento de Material Hospitalar",
+    "reference_price": 300000.0,
+    "current_price": 300000.0,
+    "status": "scheduled",
+    "company_id": 4,
+    "scheduled_at": null
+  },
+  {
+    "id": 17,
+    "portal": "Comprasnet",
+    "item": "Aquisição de Equipamentos de TI",
+    "reference_price": 120000.0,
+    "current_price": 120000.0,
+    "status": "running",
+    "company_id": 5,
+    "scheduled_at": null
+  },
+  {
+    "id": 18,
+    "portal": "Comprasnet",
+    "item": "Serviços de Manutenção Predial",
+    "reference_price": 45000.0,
+    "current_price": 45000.0,
+    "status": "scheduled",
+    "company_id": 5,
+    "scheduled_at": null
+  },
+  {
+    "id": 19,
+    "portal": "Comprasnet",
+    "item": "Fornecimento de Material Hospitalar",
+    "reference_price": 300000.0,
+    "current_price": 300000.0,
+    "status": "scheduled",
+    "company_id": 5,
+    "scheduled_at": null
+  },
+  {
+    "id": 20,
+    "portal": "Comprasnet",
+    "item": "Aquisição de equipamentos de informática",
+    "reference_price": 79223.20603197653,
+    "current_price": 79223.20603197653,
+    "status": "running",
+    "company_id": 5,
+    "scheduled_at": null
+  },
+  {
+    "id": 21,
+    "portal": "Comprasnet",
+    "item": "Prestação de serviços de manutenção predial",
+    "reference_price": 157603.07212788105,
+    "current_price": 157603.07212788105,
+    "status": "running",
+    "company_id": 5,
+    "scheduled_at": null
+  },
+  {
+    "id": 22,
+    "portal": "Comprasnet",
+    "item": "Fornecimento de materiais de escritório",
+    "reference_price": 98229.18511360367,
+    "current_price": 98229.18511360367,
+    "status": "running",
+    "company_id": 5,
+    "scheduled_at": null
+  },
+  {
+    "id": 23,
+    "portal": "Comprasnet",
+    "item": "Aquisição de Equipamentos de TI",
+    "reference_price": 120000.0,
+    "current_price": 120000.0,
+    "status": "running",
+    "company_id": 3,
+    "scheduled_at": null
+  },
+  {
+    "id": 24,
+    "portal": "Comprasnet",
+    "item": "Serviços de Manutenção Predial",
+    "reference_price": 45000.0,
+    "current_price": 45000.0,
+    "status": "scheduled",
+    "company_id": 3,
+    "scheduled_at": null
+  },
+  {
+    "id": 25,
+    "portal": "Comprasnet",
+    "item": "Fornecimento de Material Hospitalar",
+    "reference_price": 300000.0,
+    "current_price": 300000.0,
+    "status": "scheduled",
+    "company_id": 3,
+    "scheduled_at": null
+  },
+  {
+    "id": 26,
+    "portal": "Comprasnet",
+    "item": "Prestação de Serviços de Segurança",
+    "reference_price": 95000.0,
+    "current_price": 95000.0,
+    "status": "running",
+    "company_id": 3,
+    "scheduled_at": null
+  },
+  {
+    "id": 27,
+    "portal": "Comprasnet",
+    "item": "Aquisição de Equipamentos de TI",
+    "reference_price": 120000.0,
+    "current_price": 120000.0,
+    "status": "running",
+    "company_id": 3,
+    "scheduled_at": null
+  },
+  {
+    "id": 28,
+    "portal": "Comprasnet",
+    "item": "Serviços de Manutenção Predial",
+    "reference_price": 45000.0,
+    "current_price": 45000.0,
+    "status": "scheduled",
+    "company_id": 3,
+    "scheduled_at": null
+  },
+  {
+    "id": 29,
+    "portal": "Comprasnet",
+    "item": "Fornecimento de Material Hospitalar",
+    "reference_price": 300000.0,
+    "current_price": 300000.0,
+    "status": "scheduled",
+    "company_id": 3,
+    "scheduled_at": null
+  },
+  {
+    "id": 30,
+    "portal": "Comprasnet",
+    "item": "Prestação de Serviços de Segurança",
+    "reference_price": 95000.0,
+    "current_price": 95000.0,
+    "status": "running",
+    "company_id": 3,
+    "scheduled_at": null
+  },
+  {
+    "id": 31,
+    "portal": "Comprasnet",
+    "item": "Aquisição de Equipamentos de TI",
+    "reference_price": 120000.0,
+    "current_price": 120000.0,
+    "status": "running",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 32,
+    "portal": "Comprasnet",
+    "item": "Serviços de Manutenção Predial",
+    "reference_price": 45000.0,
+    "current_price": 45000.0,
+    "status": "scheduled",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 33,
+    "portal": "Comprasnet",
+    "item": "Fornecimento de Material Hospitalar",
+    "reference_price": 300000.0,
+    "current_price": 300000.0,
+    "status": "scheduled",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 34,
+    "portal": "Comprasnet",
+    "item": "Prestação de Serviços de Segurança",
+    "reference_price": 95000.0,
+    "current_price": 95000.0,
+    "status": "running",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 35,
+    "portal": "Comprasnet",
+    "item": "Aquisição de Equipamentos de TI",
+    "reference_price": 120000.0,
+    "current_price": 120000.0,
+    "status": "running",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 36,
+    "portal": "Comprasnet",
+    "item": "Serviços de Manutenção Predial",
+    "reference_price": 45000.0,
+    "current_price": 45000.0,
+    "status": "scheduled",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 37,
+    "portal": "Comprasnet",
+    "item": "Fornecimento de Material Hospitalar",
+    "reference_price": 300000.0,
+    "current_price": 300000.0,
+    "status": "scheduled",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 38,
+    "portal": "Comprasnet",
+    "item": "Prestação de Serviços de Segurança",
+    "reference_price": 95000.0,
+    "current_price": 95000.0,
+    "status": "running",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 39,
+    "portal": "Comprasnet",
+    "item": "Aquisição de Equipamentos de TI",
+    "reference_price": 120000.0,
+    "current_price": 120000.0,
+    "status": "running",
+    "company_id": 6,
+    "scheduled_at": null
+  },
+  {
+    "id": 40,
+    "portal": "Comprasnet",
+    "item": "Serviços de Manutenção Predial",
+    "reference_price": 45000.0,
+    "current_price": 45000.0,
+    "status": "scheduled",
+    "company_id": 6,
+    "scheduled_at": null
+  },
+  {
+    "id": 41,
+    "portal": "Comprasnet",
+    "item": "Fornecimento de Material Hospitalar",
+    "reference_price": 300000.0,
+    "current_price": 300000.0,
+    "status": "scheduled",
+    "company_id": 6,
+    "scheduled_at": null
+  },
+  {
+    "id": 42,
+    "portal": "Comprasnet",
+    "item": "Aquisição de Equipamentos de TI",
+    "reference_price": 120000.0,
+    "current_price": 120000.0,
+    "status": "running",
+    "company_id": 6,
+    "scheduled_at": null
+  },
+  {
+    "id": 43,
+    "portal": "Comprasnet",
+    "item": "Serviços de Manutenção Predial",
+    "reference_price": 45000.0,
+    "current_price": 45000.0,
+    "status": "scheduled",
+    "company_id": 6,
+    "scheduled_at": null
+  },
+  {
+    "id": 44,
+    "portal": "Comprasnet",
+    "item": "Fornecimento de Material Hospitalar",
+    "reference_price": 300000.0,
+    "current_price": 300000.0,
+    "status": "scheduled",
+    "company_id": 6,
+    "scheduled_at": null
+  },
+  {
+    "id": 45,
+    "portal": "Comprasnet",
+    "item": "Prestação de Serviços de Segurança",
+    "reference_price": 95000.0,
+    "current_price": 95000.0,
+    "status": "running",
+    "company_id": 6,
+    "scheduled_at": null
+  },
+  {
+    "id": 46,
+    "portal": "Comprasnet",
+    "item": "Aquisição de Equipamentos de TI",
+    "reference_price": 120000.0,
+    "current_price": 120000.0,
+    "status": "running",
+    "company_id": 6,
+    "scheduled_at": null
+  },
+  {
+    "id": 47,
+    "portal": "Comprasnet",
+    "item": "Serviços de Manutenção Predial",
+    "reference_price": 45000.0,
+    "current_price": 45000.0,
+    "status": "scheduled",
+    "company_id": 6,
+    "scheduled_at": null
+  },
+  {
+    "id": 48,
+    "portal": "Comprasnet",
+    "item": "Fornecimento de Material Hospitalar",
+    "reference_price": 300000.0,
+    "current_price": 300000.0,
+    "status": "scheduled",
+    "company_id": 6,
+    "scheduled_at": null
+  },
+  {
+    "id": 49,
+    "portal": "Comprasnet",
+    "item": "Prestação de Serviços de Segurança",
+    "reference_price": 95000.0,
+    "current_price": 95000.0,
+    "status": "running",
+    "company_id": 6,
+    "scheduled_at": null
+  },
+  {
+    "id": 50,
+    "portal": "Comprasnet",
+    "item": "Aquisição de Equipamentos de TI",
+    "reference_price": 120000.0,
+    "current_price": 120000.0,
+    "status": "running",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 51,
+    "portal": "Comprasnet",
+    "item": "Serviços de Manutenção Predial",
+    "reference_price": 45000.0,
+    "current_price": 45000.0,
+    "status": "scheduled",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 52,
+    "portal": "Comprasnet",
+    "item": "Fornecimento de Material Hospitalar",
+    "reference_price": 300000.0,
+    "current_price": 300000.0,
+    "status": "scheduled",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 53,
+    "portal": "Comprasnet",
+    "item": "Prestação de Serviços de Segurança",
+    "reference_price": 95000.0,
+    "current_price": 95000.0,
+    "status": "running",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 54,
+    "portal": "Comprasnet",
+    "item": "Aquisição de Equipamentos de TI",
+    "reference_price": 120000.0,
+    "current_price": 120000.0,
+    "status": "running",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 55,
+    "portal": "Comprasnet",
+    "item": "Serviços de Manutenção Predial",
+    "reference_price": 45000.0,
+    "current_price": 45000.0,
+    "status": "scheduled",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 56,
+    "portal": "Comprasnet",
+    "item": "Fornecimento de Material Hospitalar",
+    "reference_price": 300000.0,
+    "current_price": 300000.0,
+    "status": "scheduled",
+    "company_id": 2,
+    "scheduled_at": null
+  },
+  {
+    "id": 57,
+    "portal": "Comprasnet",
+    "item": "Prestação de Serviços de Segurança",
+    "reference_price": 95000.0,
+    "current_price": 95000.0,
+    "status": "running",
+    "company_id": 2,
+    "scheduled_at": null
+  }
+]

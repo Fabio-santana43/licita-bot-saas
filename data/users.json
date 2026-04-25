@@ -1,0 +1,38 @@
+{
+  "admin@techcorp.com": {
+    "id": 1,
+    "email": "admin@techcorp.com",
+    "full_name": "João Silva",
+    "company_id": 5,
+    "is_active": true,
+    "created_at": "2026-01-23 00:00:00",
+    "hashed_password": "$pbkdf2-sha256$29000$wLiX0vr/nxOC0FpLqVXKuQ$WFJ5XkC3MTsz/35wgofilM15wZg3D3Sh5GW8igZ5XtY"
+  },
+  "maria@innovasoft.com": {
+    "id": 2,
+    "email": "maria@innovasoft.com",
+    "full_name": "Maria Santos",
+    "company_id": 2,
+    "is_active": true,
+    "created_at": "2026-01-22 21:46:29.567120",
+    "hashed_password": "$pbkdf2-sha256$29000$5HwvxZjz/p/T.h/jnHOOcQ$lHGdFWydFSHBV3lt60/oeukVRUHJkI7kQ3SzMWq7pbs"
+  },
+  "fabio@santana.com": {
+    "id": 3,
+    "email": "fabio@santana.com",
+    "full_name": "faio santana",
+    "company_id": 3,
+    "is_active": true,
+    "created_at": "2026-01-22 21:55:13.439108",
+    "hashed_password": "$pbkdf2-sha256$29000$/V8rJWRMyRnjfO9di5Hy3g$N1ZHldPN8KD1LgGCKouISz0vIFq.3LyGRNuYXe7z9A8"
+  },
+  "contato@empresa.com": {
+    "id": 4,
+    "email": "contato@empresa.com",
+    "full_name": "Contato licitação",
+    "company_id": 5,
+    "is_active": true,
+    "created_at": "2026-01-22 23:38:07.685970",
+    "hashed_password": "$pbkdf2-sha256$29000$xDhHqNV6L6VUqlWq9V4LIQ$iPLWHln2IGzBlEuMmorwltpkPV43S.QhwxDnvodLVGE"
+  }
+}
